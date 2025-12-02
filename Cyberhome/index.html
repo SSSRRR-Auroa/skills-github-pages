@@ -1,0 +1,90 @@
+﻿<!DOCTYPE html><html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>程序猿光萧的赛博主页</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- 背景 canvas -->
+    <canvas id="bgCanvas"></canvas><!-- 顶部导航栏 -->
+<header>
+    <h1 class="neon-text">光萧的赛博主页</h1>
+    <nav>
+        <ul>
+            <li><a href="#home">首页</a></li>
+            <li><a href="#blog">日志</a></li>
+            <li><a href="#gallery">相册</a></li>
+            <li><a href="#hobby">爱好</a></li>
+            <li><a href="#contact">联系我</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- 首页 -->
+<section id="home">
+    <h2 class="neon-text">欢迎来到我的赛博空间</h2>
+    <p>探索程序猿的前卫世界，代码与霓虹共舞！</p>
+    <button id="greetBtn" class="glow-button">点击查看问候</button>
+    <p id="greetMsg" class="neon-text"></p>
+</section>
+
+<!-- 日志 -->
+<section id="blog">
+    <h2 class="neon-text">我的日志</h2>
+    <article class="blog-card">
+        <h3>2025-12-01 学习赛博前端</h3>
+        <p>今天尝试了霓虹风格页面设计，结合 CSS 动画和 JavaScript 动态效果。</p>
+    </article>
+    <article class="blog-card">
+        <h3>2025-11-30 项目实践</h3>
+        <p>实现了霓虹按钮闪烁效果，和动态问候功能。</p>
+    </article>
+</section>
+
+<!-- 相册 -->
+<section id="gallery">
+    <h2 class="neon-text">我的相册</h2>
+    <div class="gallery-container">
+        <img src="image1.jpg" alt="代码照片" class="floating">
+        <img src="image2.jpg" alt="赛博街景" class="floating">
+        <img src="image3.jpg" alt="咖啡与笔记本" class="floating">
+    </div>
+</section>
+
+<!-- 爱好 -->
+<section id="hobby">
+    <h2 class="neon-text">我的爱好</h2>
+    <ul class="hobby-list">
+        <li>编程与开发</li>
+        <li>赛博风摄影</li>
+        <li>科幻与阅读</li>
+        <li>夜跑与健身</li>
+    </ul>
+</section>
+
+<!-- 联系我 -->
+<section id="contact">
+    <h2 class="neon-text">与我联系</h2>
+    <form>
+        <label for="name">姓名:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">邮箱:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">留言:</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <button type="submit" class="glow-button">发送</button>
+    </form>
+</section>
+
+<footer>
+    <p class="neon-text">&copy; 2025 程序猿光萧</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
